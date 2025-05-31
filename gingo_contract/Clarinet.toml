@@ -5,13 +5,15 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
-
-[contracts.contract_distribution]
-path = 'contracts/contract_distribution.clar'
 [contracts.anonymization]
 path = 'contracts/anonymization.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.contract_distribution]
+path = 'contracts/contract_distribution.clar'
+clarity_version = 1
+epoch = 2.05
 
 [contracts.data_shearing_and_management]
 path = 'contracts/data_shearing_and_management.clar'
@@ -25,6 +27,11 @@ epoch = 2.5
 
 [contracts.res]
 path = 'contracts/res.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.reserve_with_event_history_retrieval]
+path = 'contracts/reserve_with_event_history_retrieval.clar'
 clarity_version = 2
 epoch = 2.5
 
