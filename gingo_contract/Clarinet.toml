@@ -44,6 +44,11 @@ epoch = 2.5
 path = 'contracts/user_identity.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.weighted_votes]
+path = 'contracts/weighted_votes.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
